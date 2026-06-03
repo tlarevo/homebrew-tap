@@ -1,18 +1,18 @@
 class Ezyl3 < Formula
   desc "Manage a local LiteLLM bridge for Cursor"
   homepage "https://github.com/tlarevo/ezyl3"
-  version "0.1.1"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/tlarevo/ezyl3/releases/download/v0.1.1/ezyl3_0.1.1_darwin_arm64.tar.gz"
-      sha256 "57860283f3c74897a2bc263d67e6bf0793c31772f23cfa05131da65b178b2ead"
+      url "https://github.com/tlarevo/ezyl3/releases/download/v0.2.0/ezyl3_0.2.0_darwin_arm64.tar.gz"
+      sha256 "cd818cb7ba55f4e3a6c09a58e8fa403b171361b36c433023a49f34c4ae982a4d"
     end
 
     on_intel do
-      url "https://github.com/tlarevo/ezyl3/releases/download/v0.1.1/ezyl3_0.1.1_darwin_amd64.tar.gz"
-      sha256 "1a9374409008f6f66f94f94d2344b76b034238ccad7e5d55b8530069330f8f8c"
+      url "https://github.com/tlarevo/ezyl3/releases/download/v0.2.0/ezyl3_0.2.0_darwin_amd64.tar.gz"
+      sha256 "351b8490fafb0227bbec607412a74e735d421ec4fd75d44a67750e1d72e5dca2"
     end
   end
 
