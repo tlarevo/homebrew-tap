@@ -1,8 +1,8 @@
 class HindsightTui < Formula
   desc "Local-first terminal UI for Hindsight"
   homepage "https://github.com/tlarevo/hindsight-tui"
-  url "https://github.com/tlarevo/hindsight-tui/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "4fe6425b3f8bc3d2fab7323957c989c63633561dfbf1292c6869d76caa270f11"
+  url "https://github.com/tlarevo/hindsight-tui/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "35ec45d31e03a2db0e4cc17137a1c65fdad4e641fbe68313fa2abe3495722c8d"
   license "MIT"
   head "https://github.com/tlarevo/hindsight-tui.git", branch: "main"
 
