@@ -9,7 +9,7 @@ class HindsightTui < Formula
   depends_on "go" => :build
 
   def install
-    ldflags = "-s -w -X hindsight-tui/internal/cli.version=#{version}"
+    ldflags = "-s -w -X github.com/tlarevo/hindsight-tui/internal/cli.version=#{version}"
     system "go", "build", *std_go_args(ldflags:, output: bin/"hindsight-tui"), "./cmd/hindsight-tui"
   end
 
