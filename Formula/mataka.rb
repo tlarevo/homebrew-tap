@@ -9,13 +9,7 @@ class Mataka < Formula
       url "https://github.com/tlarevo/mataka/releases/download/v0.2.0/mataka_aarch64-apple-darwin.tar.gz"
       sha256 "5c307272f73ba88736c56e522b45dd9d4a467b6eec44e57ca5c2836f7ecf6890"
     end
-
-    on_intel do
-      url "https://github.com/tlarevo/mataka/releases/download/v0.2.0/mataka_x86_64-apple-darwin.tar.gz"
-      sha256 "TODO_x86_64_mac"
-    end
   end
-
   on_linux do
     on_intel do
       url "https://github.com/tlarevo/mataka/releases/download/v0.2.0/mataka_x86_64-unknown-linux-gnu.tar.gz"
