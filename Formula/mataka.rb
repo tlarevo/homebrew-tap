@@ -26,7 +26,7 @@ class Mataka < Formula
     keep_alive true
     log_path var/"log/mataka.log"
     error_log_path var/"log/mataka.log"
-    # Default to apfel (on-device LLM via Apple Intelligence).
+    # Default to Ollama (qwen2.5:7b + nomic-embed-text)
     # Override for other providers:
     #   brew services stop mataka
     #   launchctl unload ~/Library/LaunchAgents/homebrew.mxcl.mataka.plist
