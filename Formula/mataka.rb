@@ -34,8 +34,8 @@ class Mataka < Formula
     #   launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mataka.plist
     environment_variables MATAKA_LLM_PROVIDER: "openai-compatible",
                           MATAKA_LLM_BASE_URL: "http://localhost:11434/v1",
-                          MATAKA_LLM_MODEL: "apfel",
-                          MATAKA_EMBEDDINGS_MODEL: "apfel"
+                          MATAKA_LLM_MODEL: "qwen2.5:7b",
+                          MATAKA_EMBEDDINGS_MODEL: "nomic-embed-text"
   end
 
   test do
@@ -44,7 +44,7 @@ class Mataka < Formula
       exec ENV["MATAKA_LLM_PROVIDER"] = "mock", bin/"mataka"
     end
     sleep 2
-    assert_match "ok", shell_output("curl -sf http://localhost:8888/health")
+    assert_match "ok", shell_output("curl -sf http://localhost:8889/health")
   ensure
     Process.kill("TERM", pid) if pid
     Process.wait(pid) if pid
