@@ -1,19 +1,19 @@
 class Mataka < Formula
   desc "Lean drop-in replacement for the Hindsight agent-memory API"
   homepage "https://github.com/tlarevo/mataka"
-  version "0.2.3"
+  version "0.2.4"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/tlarevo/mataka/releases/download/v0.2.3/mataka_aarch64-apple-darwin.tar.gz"
-      sha256 "f196c498904bb98d01794b3bbf161ccd9ab15e82334a481125e1368b05306a74"
+      url "https://github.com/tlarevo/mataka/releases/download/v0.2.4/mataka_aarch64-apple-darwin.tar.gz"
+      sha256 "884abedf440638eb6c980828b5191f4147a50f722b207063a9b54b98392e9edf"
     end
   end
   on_linux do
     on_intel do
-      url "https://github.com/tlarevo/mataka/releases/download/v0.2.3/mataka_x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "15658cfd96ef9f3d4c55d7f2ea1211fff81fc316b75770cc9c3d1db6709d4afb"
+      url "https://github.com/tlarevo/mataka/releases/download/v0.2.4/mataka_x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "32b1510d74ca463e6e24356a501286ef0dc3a3dea7c9aa9e4032caa8cd3fee65"
     end
   end
 
